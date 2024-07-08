@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+body{
+    background-color: var(--background-main);
+}
+:root {
+    --primary-color: #258E00;
+    --secondary-color: #CBF9BC;
+    --background-main: #EBFDE5;
+    --text-color: #666363;
+}
+.header1{
+    background-color: var(--secondary-color);
+    display: flex;
+    padding: 1rem;
+}
+.header2{
+    width: 100%;
+    display: flex;
+    gap: 5em;
+    align-items: center;
+}
+.header_inf{
+    text-decoration: none;
+    font-size: xx-large;
+    color: var(--text-color);
+}
+.login{
+    text-decoration: none;
+    font-size: xx-large; 
+    color:white;
+    border: 20px solid var(--primary-color);
+    background-color: var(--primary-color);
+    border-radius: 25px;
+    
+}
+.logo{
+    margin-right: 20em;
+    margin-left: 5em;
+    margin-top: 0;
+}
+
+.section{
+    align-items: center;
+    background-color: var(--background-main) ;
+    display: flex;
+}
+.textos{
+    width: 35%;
+    height: 100%;
+    font-size: 45px; 
+    align-items: center;
+    margin-left: 9rem;
+}
+.imagem_fundo{
+    height: 550px;
+    padding: 5em 5em 5em 0
+}
+.login1{
+    text-decoration: none;
+    font-size: xx-large; 
+    color:white;
+    border: 15px solid var(--primary-color);
+    background-color: var(--primary-color);
+    border-radius: 25px;
+}
+.button{
+    margin-top: 1rem;
+}
